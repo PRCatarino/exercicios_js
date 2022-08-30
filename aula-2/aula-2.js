@@ -15,5 +15,6 @@ let repetidos = 15 * 7
 }
 //C
 {
-  
+  let decremento = 10
+  for(i=0; i)
 }
