@@ -9,14 +9,12 @@ form.addEventListener('submit', function(event) {
     let cpfCorreto = false;
     
     if(name.length > 0){
-
         camposPreenchidos = true;
     }else{
         digitaTela.style.color = "#790202b0"
         digitaTela.innerHTML = 'Nome não preenchido'
         return;
     }
-
     if (camposPreenchidos && sobrenome.length > 0){
 
         camposPreenchidos = true;
@@ -25,8 +23,6 @@ form.addEventListener('submit', function(event) {
         digitaTela.innerHTML = 'Sobrenome não preenchido'
         return;
     }
-
-
     if(camposPreenchidos && cpfNumber.length > 0) {
 
         camposPreenchidos = true;
@@ -42,7 +38,6 @@ form.addEventListener('submit', function(event) {
         digitaTela.innerHTML = 'Cpf incorreto'
         return;
     }
-
     if(camposPreenchidos && cpfCorreto){
         digitaTela.style.color = "Blue"
         digitaTela.innerHTML = 'Tudo está correto'
