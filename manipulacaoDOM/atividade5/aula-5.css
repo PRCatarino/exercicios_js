@@ -49,7 +49,7 @@ input{
     outline-style: none;
     background-color: rgb(221, 221, 221);
 }
-#salvar{
+.button{
     margin-top:20px;
     background-color: rgb(2, 2, 54);
     border:none;
@@ -57,6 +57,6 @@ input{
     border-radius:3px;
     color:white;
 }
-#salvar:hover{
+.button:hover{
     cursor: pointer;
 }
