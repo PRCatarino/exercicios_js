@@ -1,5 +1,3 @@
-let btnCalcular = document.getElementById('calcular');
-let btnLimpar = document.getElementById('limpar');  
 let numero = document.getElementById('numero');
 let arrValores = [];
 let resultadoDiv = document.getElementById('resultado');
