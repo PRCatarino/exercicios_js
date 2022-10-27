@@ -1,3 +1,6 @@
+
+const clientes = ['Jorge', 'Maria', 'Manoel', 'João', 'Roberto', 'Vera'];
+
 function calcularTempoSaida(listaDeClientes, nomeCliente, index = 0) {
     const tempoPadrao = 15;
     const numeroDeClientes = listaDeClientes.length;
