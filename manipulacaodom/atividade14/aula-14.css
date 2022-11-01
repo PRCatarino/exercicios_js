@@ -1,0 +1,36 @@
+*{
+    font-size:1.02em;
+}
+#pesquisa{
+    padding:10px;
+    border-radius:5px;
+    border:1px solid;
+    width: 80%;
+}
+
+.button{
+    padding:10px;
+    border-radius:3px;
+    background-color: green;
+    color: white;
+    border:none;
+}
+.button:hover{
+    cursor: pointer;
+}
+table{
+    width: 100%;
+}
+th{
+    background-color: black;
+    color:white;
+    
+}
+th,td{
+    padding:7px;
+    text-align: center;
+}
+tr:nth-child(even){
+    background-color: rgb(185, 185, 185);
+}
+
